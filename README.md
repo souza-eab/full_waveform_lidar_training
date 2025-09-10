@@ -52,33 +52,33 @@ aoi_bbox = [-87.41, 34.15, -87.35, 34.18]
 ## Waveform Analysis
 The notebook includes a specialized module for analyzing individual GEDI waveforms:
 
-Select shots based on elevation characteristics (e.g., ±1.2 standard deviations from mean)
-Extract and plot 5 individual waveforms showing elevation vs. amplitude
-Create interactive maps highlighting selected shots among all quality data
-Analyze vegetation structure using raw L1B waveform returns
+-Select shots based on elevation characteristics (e.g., ±1.2 standard deviations from mean)
+-Extract and plot 5 individual waveforms showing elevation vs. amplitude
+-Create interactive maps highlighting selected shots among all quality data
+-Analyze vegetation structure using raw L1B waveform returns
 
 ## Applications
 
-Forest structure analysis: Canopy height and vertical profile assessment
-Vegetation mapping: Species classification and biomass estimation
-Terrain analysis: Ground return identification and topographic mapping
-Algorithm development: Testing new waveform processing approaches
-Educational purposes: Learning full waveform LiDAR data analysis
+-Forest structure analysis: Canopy height and vertical profile assessment
+-Vegetation mapping: Species classification and biomass estimation
+-Terrain analysis: Ground return identification and topographic mapping
+-Algorithm development: Testing new waveform processing approaches
+-Educational purposes: Learning full waveform LiDAR data analysis
 
 ## GEDI Mission Information
 The Global Ecosystem Dynamics Investigation (GEDI) is a NASA Earth science mission that provides global measurements of forest structure and topography. GEDI data helps scientists understand:
 
-Forest carbon storage and dynamics
-Biodiversity habitat characterization
-Climate change impacts on ecosystems
-Sustainable forest management practices
+Forest carbon storage and dynamics,
+Biodiversity habitat characterization,
+Climate change impacts on ecosystems,
+Sustainable forest management practices.
 
 Key Specifications:
 
-Spatial Resolution: ~25m footprint diameter
-Coverage: Global between 51.6°N and 51.6°S
-Temporal Coverage: April 2019 - present (with gap March 2023 - April 2024)
-Measurement Capability: Full waveform returns with sub-meter vertical resolution
+-Spatial Resolution: ~25m footprint diameter
+-Coverage: Global between 51.6°N and 51.6°S
+-Temporal Coverage: April 2019 - present (with gap March 2023 - April 2024)
+-Measurement Capability: Full waveform returns with sub-meter vertical resolution
 
 ## Citation
 If you use this code in your research, please cite:
