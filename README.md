@@ -43,10 +43,10 @@ This repository provides tools for working with GEDI L1B geolocated waveform dat
 
 ## Study Area Configuration
 
-# Define your Area of Interest (AOI)
+### Define your Area of Interest (AOI)
 aoi_bbox = [min_longitude, min_latitude, max_longitude, max_latitude]
 
-# Example: Bankhead National Forest, Alabama
+### Example: Bankhead National Forest, Alabama
 aoi_bbox = [-87.41, 34.15, -87.35, 34.18]
 
 ## Waveform Analysis
