@@ -60,9 +60,13 @@ The notebook includes a specialized module for analyzing individual GEDI wavefor
 ## Applications
 
 -Forest structure analysis: Canopy height and vertical profile assessment
+
 -Vegetation mapping: Species classification and biomass estimation
+
 -Terrain analysis: Ground return identification and topographic mapping
+
 -Algorithm development: Testing new waveform processing approaches
+
 -Educational purposes: Learning full waveform LiDAR data analysis
 
 ## GEDI Mission Information
