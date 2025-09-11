@@ -80,8 +80,11 @@ Sustainable forest management practices.
 Key Specifications:
 
 -Spatial Resolution: ~25m footprint diameter
+
 -Coverage: Global between 51.6°N and 51.6°S
+
 -Temporal Coverage: April 2019 - present (with gap March 2023 - April 2024)
+
 -Measurement Capability: Full waveform returns with sub-meter vertical resolution
 
 ## Citation
