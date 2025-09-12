@@ -90,10 +90,5 @@ Key Specifications:
 
 -Measurement Capability: Full waveform returns with sub-meter vertical resolution
 
-## Citation
-If you use this code in your research, please cite:
-
-GEDI L1B Data: Dubayah, R., et al. (2021). GEDI L1B Geolocated Waveform Data Global Footprint Level V002. NASA Land Processes Distributed Active Archive Center. https://doi.org/10.5067/GEDI/GEDI01_B.002
-
 ## License
 This project is open source and available under the MIT License.
