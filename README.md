@@ -53,8 +53,11 @@ aoi_bbox = [-87.41, 34.15, -87.35, 34.18]
 The notebook includes a specialized module for analyzing individual GEDI waveforms:
 
 -Select shots based on elevation characteristics (e.g., ±1.2 standard deviations from mean)
+
 -Extract and plot 5 individual waveforms showing elevation vs. amplitude
+
 -Create interactive maps highlighting selected shots among all quality data
+
 -Analyze vegetation structure using raw L1B waveform returns
 
 ## Applications
