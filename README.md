@@ -1,3 +1,5 @@
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/savcooley/full_waveform_lidar_training/blob/main/ARSET_GEDI_L1B_Part1.ipynb)
+
 # full\_waveform\_lidar\_training
 
 ARSET Full Waveform LiDAR Training - Part 1 notebook: A comprehensive Python notebook for processing and analyzing NASA GEDI L1B (Global Ecosystem Dynamics Investigation Level 1B) full waveform LiDAR data using Google Colab.
