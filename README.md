@@ -1,5 +1,5 @@
 # full_waveform_lidar_training
-ARSET Full Waveform LiDAR Training - Part 1 notebook
+ARSET Full Waveform LiDAR Training - Part 1 notebook: 
 A comprehensive Python notebook for processing and analyzing NASA GEDI L1B (Global Ecosystem Dynamics Investigation Level 1B) full waveform LiDAR data using Google Colab.
 
 ## Overview
@@ -34,6 +34,42 @@ This repository provides tools for working with GEDI L1B geolocated waveform dat
 - Python libraries: `earthaccess`, `h5py`, `geopandas`, `matplotlib`, `folium`
 
 ## Quick Start
+This section provides a detailed guide to setting up and running the GEDI L1B processing notebook in Google Colab from scratch.
+
+1. Open in Google Colab
+Click the "Open in Colab" badge at the top of this README to launch the notebook directly in your browser.
+
+2. Clone the GitHub Repository
+To access the notebook and any supplementary files, clone the repository into your Colab environment. Run the following command in a code cell:
+
+Python
+
+!git clone https://github.com/savcooley/full_waveform_lidar_training.git
+
+3. Install Required Libraries
+Install the necessary Python libraries using pip. Run the following command in a code cell:
+
+Python
+
+!pip install earthaccess h5py geopandas matplotlib folium
+
+4. Mount Your Google Drive
+Mounting your Google Drive allows the notebook to save output files and access data you may have stored. You will be prompted to authorize Colab to access your drive.
+
+Python
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+5. Authenticate with NASA Earthdata
+To download GEDI data, you need a NASA Earthdata account. If you don't have one, you can register for free.
+
+Run the authentication cell in the notebook, which will prompt you to enter your Earthdata username and password. This will allow the notebook to programmatically download the required data.
+
+6. Define Your Study Area
+Set your area of interest (AOI) by defining a bounding box with geographic coordinates (longitude and latitude).
+
+aoi_bbox = [min_longitude, min_latitude, max_longitude, max_latitude]
 
 1. Open in Google Colab: Upload the notebook to Google Colab
 2. Authenticate: Run the authentication cell and enter your NASA Earthdata credentials
