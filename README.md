@@ -1,4 +1,4 @@
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/savcooley/full_waveform_lidar_training/blob/main/ARSET_GEDI_L1B_Part1.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13FYys05YCGwT1zbTLCzlRLMCYhpGYUQb)
 
 # full\_waveform\_lidar\_training
 
