@@ -71,11 +71,9 @@ Set your area of interest (AOI) by defining a bounding box with geographic coord
 
 aoi_bbox = [min_longitude, min_latitude, max_longitude, max_latitude]
 
-1. Open in Google Colab: Upload the notebook to Google Colab
-2. Authenticate: Run the authentication cell and enter your NASA Earthdata credentials
-3. Define your study area: Set your area of interest bounding box coordinates
-4. Run processing: Execute the main processing block to download and analyze data
-5. Visualize waveforms: Use the waveform visualization module to analyze individual shots
+7. Run processing: Execute the main processing block to download and analyze data
+
+8. Visualize waveforms: Use the waveform visualization module to analyze individual shots
 
 ## Study Area Configuration
 
