@@ -48,11 +48,11 @@ This repository provides tools for working with GEDI L1B geolocated waveform dat
 
 This section provides a detailed guide to setting up and running the GEDI L1B processing notebook in Google Colab from scratch.
 
-### 1\. Open in Google Colab
+### 0\. Open in Google Colab
 
 Click the "Open in Colab" badge at the top of this README to launch the notebook directly in your browser.
 
-### 2\. Clone the GitHub Repository
+### 1\. Clone the GitHub Repository
 
 To access the notebook and any supplementary files, clone the repository into your Colab environment. Run the following command in a code cell:
 
@@ -60,7 +60,7 @@ To access the notebook and any supplementary files, clone the repository into yo
 !git clone https://github.com/savcooley/full_waveform_lidar_training.git
 ```
 
-### 3\. Install Required Libraries
+### 2\. Install Required Libraries
 
 Install the necessary Python libraries using pip. Run the following command in a code cell:
 
@@ -68,7 +68,7 @@ Install the necessary Python libraries using pip. Run the following command in a
 !pip install earthaccess h5py geopandas matplotlib folium
 ```
 
-### 4\. Mount Your Google Drive
+### 3\. Mount Your Google Drive
 
 Mounting your Google Drive allows the notebook to save output files and access data you may have stored. You will be prompted to authorize Colab to access your drive.
 
@@ -77,11 +77,11 @@ from google.colab import drive
 drive.mount('/content/drive')
 ```
 
-### 5\. Authenticate with NASA Earthdata
+### 4\. Authenticate with NASA Earthdata
 
 To download GEDI data, you need a NASA Earthdata account. If you don't have one, you can [register for free](https://urs.earthdata.nasa.gov/users/new). Run the authentication cell in the notebook, which will prompt you for your Earthdata credentials.
 
-### 6\. Define Your Study Area
+### 5\. Define Your Study Area
 
 Set your area of interest (AOI) by defining a bounding box with geographic coordinates.
 
@@ -89,7 +89,7 @@ Set your area of interest (AOI) by defining a bounding box with geographic coord
 aoi_bbox = [min_longitude, min_latitude, max_longitude, max_latitude]
 ```
 
-### 7\. Run the Notebook
+### 6\. Run the Notebook
 
 Execute the remaining cells in the notebook to perform the data download, processing, and visualization.
 
